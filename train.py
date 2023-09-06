@@ -15,7 +15,7 @@ dataset_name = ""
 
 lr = 1e-6
 start_epoch = 0
-end_epoch = 1000
+end_epoch = 500
 
 devicenum = 0
 device = torch.device("cuda:" + str(devicenum))
@@ -28,7 +28,7 @@ f = open(savepath + "/%s/output.txt" % (dataset_name), 'a')
 MSE = torch.nn.MSELoss()
 
 
-model = LMNet(n_iter=10).to(device)
+model = LMNet(n_iter=8).to(device)
 if start_epoch > 1:
     model.load_state_dict(torch.load(savemodelpath + "/net_params_{}.pkl".format(start_epoch-1)))
 
