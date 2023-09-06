@@ -20,7 +20,7 @@ save_result_path = savepath + "/%s" % dataset_name
 savemodelpath = savepath + "/%s/saved_models" % dataset_name
 
 
-model = LMNet(n_iter=10).to(device)
+model = LMNet(n_iter=8).to(device)
 model.load_state_dict(torch.load(savemodelpath + "/net_params_{}.pkl".format(end_epoch), map_location=device))
 model.eval()
 
