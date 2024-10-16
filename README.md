@@ -22,3 +22,17 @@ pip install requirements.txt
 
 Our simulation and projection codes are based on [
 parallelproj](https://github.com/gschramm/parallelproj). The simulated phantom is created based on the [FBSEM](https://github.com/Abolfazl-Mehranian/FBSEM), Many Thanks. 
+
+### Citation
+If you find our paper or repo useful, please consider citing our paper:
+```
+@misc{hu2024deepunrolledprimaldual,
+      title={Deep unrolled primal dual network for TOF-PET list-mode image reconstruction}, 
+      author={Rui Hu and Chenxu Li and Kun Tian and Jianan Cui and Yunmei Chen and Huafeng Liu},
+      year={2024},
+      eprint={2410.11148},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2410.11148}, 
+}
+```
