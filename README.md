@@ -1,5 +1,5 @@
 # LMPDnet
-[Deep unrolled primal dual network for TOF-PET list-mode image reconstruction](https://iopscience.iop.org/article/10.1088/1361-6560/adf9b7/pdf)
+[Deep unrolled primal dual network for TOF-PET list-mode image reconstruction](https://iopscience.iop.org/article/10.1088/1361-6560/adf9b7)
 
 ## Set up
 
