@@ -26,14 +26,17 @@ parallelproj](https://github.com/gschramm/parallelproj). The simulated phantom i
 ### Citation
 If you find our paper or repo useful, please consider citing our paper:
 ```
-@article{Hu2025DeepUnrolled,
-  author    = {Rui Hu and Chao Li and Kai Tian and others},
-  title     = {Deep unrolled primal dual network for TOF-PET list-mode image reconstruction},
-  journal   = {Physics in Medicine \& Biology},
-  year      = {2025},
-  volume    = {70},
-  number    = {17},
-  pages     = {175012},
-  doi       = {10.1088/1361-6560/ad9a34}
+@article{Hu_2025,
+doi = {10.1088/1361-6560/adf9b7},
+url = {https://doi.org/10.1088/1361-6560/adf9b7},
+year = {2025},
+month = {aug},
+publisher = {IOP Publishing},
+volume = {70},
+number = {17},
+pages = {175012},
+author = {Hu, Rui and Li, Chenxu and Tian, Kun and Cui, Jianan and Chen, Yunmei and Liu, Huafeng},
+title = {Deep unrolled primal dual network for TOF-PET list-mode image reconstruction},
+journal = {Physics in Medicine & Biology},
 }
 ```
